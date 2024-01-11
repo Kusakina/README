@@ -25,17 +25,18 @@
 # ЛР №3
 
 В рамках лр были реализованы следующие API:
-__GET:__
-GET /api/v2/pharmacy/all
-GET /api/v2/pharmacy/{id}
-GET /api/v2/drug/all
-GET /api/v2/drug/{id}
 
-__POST__
-POST /api/v2/pharmacy/create
-POST /api/v2/pharmacy/delete/{id}
-POST /api/v2/drug/create
-POST /api/v2/drug/delete/{id}
+__GET:__
+* GET /api/v2/pharmacy/all
+* GET /api/v2/pharmacy/{id}
+* GET /api/v2/drug/all
+*GET /api/v2/drug/{id}
+  
+__POST:__
+* POST /api/v2/pharmacy/create
+* POST /api/v2/pharmacy/delete/{id}
+* POST /api/v2/drug/create
+* POST /api/v2/drug/delete/{id}
 
 Для выполнения задания по созданию RESTful приложения была выбрана технология Spring REST, потому то:
  ***
